@@ -1,7 +1,11 @@
 <template>
   <div class="p-10">
-      <div class="mb-5 p-5 flex bg-blue-300" v-for="job in jobs" :key="job.id">
-          {{job}}
+      <div class="flex flex-col mb-5 p-5 flex bg-blue-300 " v-for="job in jobs" :key="job.id">
+          <p>{{job.azienda}}</p>
+          <p>{{job.descrizione}}</p>
+          <p>{{job.esperienza}}</p>
+          <p>{{job.linguaggio}}</p>
+          <p>{{job.ral}}</p>
       </div>
   </div>
 </template>

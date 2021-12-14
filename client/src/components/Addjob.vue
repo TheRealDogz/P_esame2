@@ -37,7 +37,7 @@ export default {
     name: "addJob",
     data(){
         return{
-            movie: {
+            job: {
                 linguaggio: "",
                 azienda: "",
                 RAL: "",

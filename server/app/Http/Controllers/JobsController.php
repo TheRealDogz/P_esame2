@@ -22,9 +22,10 @@ class JobsController extends Controller
 
         $job = new Job();
 
-        $job->task = $jobData->task;
-
         $job->save();
+    }
+    public function modify(Request $req, $id)
+    {
     }
     public function delete($id)
     {
